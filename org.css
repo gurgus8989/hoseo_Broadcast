@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width : 100px;
+    height: 40px;
+ 
+}
+h1 {
+    color: blueviolet;
+    font-style:italic;
+
+    
+}
+th, td {
+
+
+    padding: 20px;
+    left: 50px;
+}
+th {
+    text-align: center;
+}

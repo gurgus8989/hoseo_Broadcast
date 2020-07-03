@@ -1,0 +1,190 @@
+
+@font-face { 
+    font-family: 'HangeulNuri-Bold'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; }
+* {
+    box-sizing: border-box;
+    font-family: 'HangeulNuri-Bold'; }
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* -------------------- */
+.head{
+    height: 20%;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid grey;
+}
+.head .MainImg{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 500px;
+    height: auto;
+}
+.MenuBar{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 62%;
+    top: 45%;
+    height: 55%;
+    width: 22%;
+}
+.Menu{
+    float: left;
+    height: 100%;
+    width: 33%;
+    list-style-type: none;
+    border-right: 1px solid rgb(160, 156, 156);
+    text-align: center;
+    padding-top: 12%;
+}
+.Menu:nth-child(1){
+    border-left: 1px solid rgb(160, 156, 156);
+}
+.Menu .subul{
+    margin-top: 25%;
+    width: 200%;
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+    background-color: lightskyblue;
+
+    z-index: 1;
+}
+.Menu .submenu{
+    float: left;
+    margin-right: 9%;
+}
+
+/* body 이미지*/
+
+.section{
+    height: 50%;
+    background-color: green;
+}
+.section .centerImg{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.section .sideImg{
+    width: 25%;
+    height: 100%;
+    background-color: indigo;
+    float: left;
+}
+.section img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* foot 이미지*/
+
+.foot{
+    height: 22%;
+    background-color: white;
+
+}
+
+.foot .footImg {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 600px;
+    
+    float: left;
+    
+}
+.foot .foot2Img {
+    position: absolute;
+    width: 600px;
+    height: 187px;
+    left: 700px;
+    float: left;
+    
+}
+
+.foot img{
+    
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+#footer{
+    border-top:1px solid #666;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+/*hellㅐ(인사말글) css*/
+.title{
+    height: 8%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contents {
+    height: 400px;
+    text-align: center;
+    line-height: 3em;
+    font-family: "굴림";
+    font-weight: bold;
+}
+/*locate (위치) */
+
+.locate {
+
+    height: 72%;
+}
+
+.locate img{
+
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    top: 230px;
+    left: 450px;
+
+}
+
+/*pairing (편성표) */
+
+.pairing {
+    height: 65%;
+
+}
+
+
+.pairing img{
+
+    position: absolute;
+    width: 45%;
+    height: 60%;
+    top: 220px;
+    left: 490px;
+
+    
+}
